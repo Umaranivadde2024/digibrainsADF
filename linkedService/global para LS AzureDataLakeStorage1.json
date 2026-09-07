@@ -1,0 +1,17 @@
+{
+	"name": "global para LS AzureDataLakeStorage1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"parameters": {
+			"storageurl": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "@{linkedService().storageurl}",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDkwOEI1OUNDLUY5NkQtNDQ4NC1BNkFCLTJDMzdDQzM1NEZGQV83ZTc2NTllZi1hZmQxLTQ4NjItOGE0My01MjQ5N2Y1Yzk5NTkiDQp9"
+		}
+	}
+}
