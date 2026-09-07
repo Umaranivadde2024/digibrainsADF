@@ -1,6 +1,12 @@
 {
 	"name": "Cicddatafactory1",
 	"properties": {
+		"globalParameters": {
+			"gobalparameter": {
+				"type": "string",
+				"value": "https://digibrainstoacc01.dfs.core.windows.net/"
+			}
+		},
 		"trustModeClaimForMi": {
 			"value": "Disabled",
 			"editable": true
